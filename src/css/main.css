@@ -1,0 +1,11 @@
+.parent-class {
+  display: flex;
+
+  & .nested-class {
+    display: flex;
+  }
+
+  &_another-nested-class {
+    display: flex;
+  }
+}
